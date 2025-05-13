@@ -1,0 +1,31 @@
+/* Styles specific to the Confirmation Page */
+
+/* Styling for the Logo component on the confirmation page */
+.confirmation-page-logo {
+    margin-bottom: 30px;
+    /* Adds space below the logo */
+}
+
+/* Styling for the main Heading component on the confirmation page */
+.confirmation-page-main-heading {
+    margin-bottom: 12px;
+    /* Adds space below the main heading */
+}
+
+/* Styling for the Text component (informational message) on the confirmation page */
+.confirmation-page-sub-text {
+    margin-bottom: 30px;
+    /* Adds space below the text, before the ticket display */
+    max-width: 450px;
+    /* Constrains width for better readability and layout,
+                           matching the mockup's appearance. */
+}
+
+.confirmation-page-sub-text strong {
+    color: #E0E0E0;
+    /* Ensures the strong tag (email) is also light colored */
+    font-weight: 600;
+    /* Make it slightly bolder */
+}
+
+

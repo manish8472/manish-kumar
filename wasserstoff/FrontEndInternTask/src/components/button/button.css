@@ -1,0 +1,72 @@
+/* Base styles applicable to all buttons created by the Button component */
+.button-base {
+    padding: 0.875rem 1.75rem;
+    border-radius: 6px;
+    /* Rounded corners for the button */
+    font-weight: 600;
+    /* Semi-bold font weight for button text */
+    font-size: 1rem;
+    cursor: pointer;
+    /* Changes cursor to pointer on hover */
+    /* smooth transition for background, border, and color */
+    transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    border: 2px solid transparent;
+    /* Transparent border by default, can be overridden by variants */
+    line-height: 1.4;
+    /* Line height for button text */
+    text-align: center;
+    /* Ensures text is centered within the button */
+    display: inline-block;
+    /* Allows setting width/padding correctly, while flowing with text */
+}
+
+/* Styles for the 'primary' button variant */
+.button-primary {
+    background-color: #FF6B6B;
+    /* Accent background color (from mockup) */
+    color: white;
+    /* White text color */
+    border-color: #FF6B6B;
+    /* Border color matches background for a solid look */
+}
+
+.button-primary:hover:not(:disabled) {
+    /* Hover effect for enabled primary buttons */
+    background-color: #e65353;
+    border-color: #e65353;
+}
+
+/* Styles for the 'secondary' button variant (e.g., outline button) */
+.button-secondary {
+    background-color: transparent;
+    /* Transparent background */
+    color: #FF6B6B;
+    /* Text color is the accent color */
+    border-color: #FF6B6B;
+    /* Border is the accent color */
+}
+
+.button-secondary:hover:not(:disabled) {
+    /* Hover effect for enabled secondary buttons */
+    background-color: rgba(255, 107, 107, 0.1);
+    /* Light accent color background on hover */
+}
+
+/* Modifier class for a button that takes the full width of its parent */
+.button-fullWidth {
+    width: 100%;
+    display: block;
+    /* Changes display to block to allow width: 100% */
+}
+
+/* Styles for disabled buttons */
+.button-base:disabled {
+    background-color: #555555;
+    /* Dark grey background for disabled state */
+    border-color: #555555;
+    /* Matching border color */
+    color: #999999;
+    /* Light grey text color for disabled state */
+    cursor: not-allowed;
+    /* Indicates the button is not interactive */
+}

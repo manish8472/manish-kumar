@@ -1,0 +1,18 @@
+/* Styles for the main container of the page layout */
+.page-layout-container {
+    display: flex;
+    /* Uses flexbox to enable easy centering and column layout */
+    flex-direction: column;
+    /* Stacks children vertically */
+    align-items: center;
+    /* Centers children horizontally */
+    min-height: 100vh;
+    /* Ensures the layout takes at least the full viewport height */
+    padding: 40px 20px;
+    /* Padding: 40px top/bottom, 20px left/right.
+                                   Provides spacing from viewport edges. */
+    background-color: #121212;
+    /* Sets the dark background color, consistent with the theme. */
+    /* This is also set on body, but good to have here for explicitness
+                                  if this component is used in different contexts. */
+}

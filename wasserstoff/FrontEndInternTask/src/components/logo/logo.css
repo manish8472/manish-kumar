@@ -1,0 +1,49 @@
+/* Styles for the main container of the logo */
+.logo-container {
+    display: flex;
+    /* Aligns icon and text horizontally */
+    align-items: center;
+    /* Vertically centers icon and text */
+    font-weight: bold;
+    /* Makes the logo text bold */
+    color: #FFFFFF;
+    /* Sets the text color to white, as seen in mockups */
+    text-decoration: none;
+    /* Removes underline if the logo is wrapped in a link */
+}
+
+/* Styles for the zigzag icon element within the logo */
+.logo-icon {
+    width: 20px;
+    /* Width of the icon */
+    height: 20px;
+    /* Height of the icon */
+    background-color: #FF6B6B;
+    /* Accent color for the icon, from mockup */
+    margin-right: 8px;
+    /* Space between the icon and the text */
+    /* This clip-path creates a simple zigzag shape.
+     In a real application, an SVG would be more robust and scalable. */
+    clip-path: polygon(0 0, 100% 0, 75% 50%, 100% 100%, 0 100%, 25% 50%);
+}
+
+/* Styles for the text part of the logo */
+.logo-text {
+    font-size: 1.25rem;
+    /* Sets the font size (equivalent to 20px if base is 16px) */
+}
+
+/* Modifier class for a smaller version of the logo (e.g., for the ticket) */
+.logo-container-small .logo-icon {
+    width: 16px;
+    /* Reduced width for the small icon */
+    height: 16px;
+    /* Reduced height for the small icon */
+    margin-right: 6px;
+    /* Slightly less space for the small version */
+}
+
+.logo-container-small .logo-text {
+    font-size: 1rem;
+    /* Reduced font size for the small text (16px) */
+}

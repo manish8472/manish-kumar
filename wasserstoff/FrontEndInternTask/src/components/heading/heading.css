@@ -1,0 +1,49 @@
+/* Base styles for all heading elements created by the Heading component */
+.heading {
+    color: #FFFFFF;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0.75em;
+    /* Relative bottom margin based on font size */
+    line-height: 1.3;
+    /* Line height for better readability */
+}
+
+/* Specific styles for h1 level headings */
+.heading-h1 {
+    font-size: 2.25rem;
+}
+
+/* Specific styles for h2 level headings */
+.heading-h2 {
+    font-size: 1.875rem;
+    
+}
+
+/* Specific styles for h3 level headings */
+.heading-h3 {
+    font-size: 1.5rem;
+}
+
+/* Specific styles for h4 level headings */
+.heading-h4 {
+    font-size: 1.3rem;
+}
+
+/* Specific styles for h5 level headings */
+.heading-h5 {
+    font-size: 1.2rem;
+}
+
+/* Text alignment utility classes for headings */
+.heading-align-left {
+    text-align: left;
+}
+
+.heading-align-center {
+    text-align: center;
+}
+
+.heading-align-right {
+    text-align: right;
+}

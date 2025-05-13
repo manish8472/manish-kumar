@@ -1,0 +1,43 @@
+/* Styles specific to the Registration Page */
+
+/* Styling for the Logo component on the registration page */
+.registration-page-logo {
+    margin-bottom: 30px;
+    /* Adds space below the logo */
+}
+
+/* Styling for the main Heading component on the registration page */
+.registration-page-main-heading {
+    margin-bottom: 12px;
+    /* Adds space below the main heading */
+    max-width: 450px;
+    /* Constrains the width of the heading to encourage text wrapping
+                           similar to the testing. Adjust as needed. */
+}
+
+/* Styling for the Text component (subtitle) on the registration page */
+.registration-page-sub-text {
+    margin-bottom: 40px;
+    /* Adds significant space below the subtitle, before the form */
+    max-width: 400px;
+    /* Constrains width for better readability and layout */
+}
+
+/* Styling for the form element on the registration page */
+.registration-page-form {
+    width: 100%;
+    /* Form takes full width of its parent (PageLayout centers it) */
+    max-width: 420px;
+    /* Maximum width for the form itself, for aesthetic balance */
+    display: flex;
+    /* Uses flexbox for its children (InputFields and Button) */
+    flex-direction: column;
+    /* Stacks form elements vertically */
+}
+
+/* Styling for the submit Button component on the registration page */
+.registration-page-submit-button {
+    margin-top: 10px;
+    /* Adds a small space above the submit button, separating it
+                           from the last input field. InputField already has margin-bottom. */
+}

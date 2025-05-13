@@ -1,0 +1,46 @@
+/* Base styles for paragraph text elements created by the Text component */
+.text-paragraph {
+    margin-top: 0;
+    /* Resets default top margin */
+    margin-bottom: 1em;
+    /* Relative bottom margin based on font size */
+    line-height: 1.6;
+    /* Line height for readability */
+    color: #E0E0E0;
+    /* Default light text color, suitable for dark backgrounds */
+}
+
+/* Font size modifiers */
+.text-size-small {
+    font-size: 0.875rem;
+    /* 14px if base is 16px */
+}
+
+.text-size-medium {
+    font-size: 1rem;
+    /* 16px if base is 16px (default) */
+}
+
+.text-size-large {
+    font-size: 1.125rem;
+    /* 18px if base is 16px */
+}
+
+/* Modifier for muted text (lighter color for less emphasis) */
+.text-muted {
+    color: #A0A0A0;
+    /* A lighter grey color than the default text color */
+}
+
+/* Text alignment utility classes */
+.text-align-left {
+    text-align: left;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-right {
+    text-align: right;
+}

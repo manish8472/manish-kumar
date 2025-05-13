@@ -1,0 +1,85 @@
+/* Styles for the group containing the label and the input element */
+.input-field-group {
+    margin-bottom: 1.25rem;
+    /* space below each input group */
+    width: 100%;
+    /* Ensures the group takes full available width */
+}
+
+/* Styles for the label associated with the input field */
+.input-field-label {
+    display: block;
+    /* Makes the label take its own line */
+    margin-bottom: 0.5rem;
+    /* 8px space between the label and the input */
+    font-size: 0.875rem;
+    color: #BDBDBD;
+    /* A light grey color for the label text */
+    font-weight: 500;
+    /* Medium font weight for the label */
+}
+
+/* Styles for the input element itself */
+.input-field-element {
+    width: 100%;
+    /* Input takes full width of its container */
+    padding: 0.875rem 1rem;
+    /* top/bottom, left/right padding */
+    border: 1px solid #4A4A4A;
+    /* Darker border color,  */
+    border-radius: 6px;
+    /* Rounded corners for the input field */
+    background-color: #1E1E1E;
+    /* Dark background color for the input field */
+    color: #FFFFFF;
+    /* White text color for user input */
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+/* Styles for the placeholder text within the input field */
+.input-field-element::placeholder {
+    color: #757575;
+    /* Grey color for placeholder text */
+}
+
+/* Styles for the input field when it has focus */
+.input-field-element:focus {
+    outline: none;
+    /* Removes the default browser outline */
+    border-color: #FF6B6B;
+    /* Changes border color to accent color (from mockup) on focus */
+    /* Adds a subtle box shadow to indicate focus, matching the accent color theme */
+    box-shadow: 0 0 0 2px rgba(255, 107, 107, 0.3);
+}
+
+/* Styles for the container for the upload box containing the icon and file name */
+.upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Area for the upload box, and clickable area */
+.upload-box {
+    border: 2px dashed #aaa;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/* Hide the file input element */
+.file-input {
+    display: none;
+}
+
+/* Styles for the upload icon */
+.upload-icon {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+/* style for file name after file upload */
+.file-name{
+    color:red;
+}

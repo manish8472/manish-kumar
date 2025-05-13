@@ -1,0 +1,115 @@
+/* Styles for the main container of the ticket card */
+.ticket-card {
+    background-color: #2A2A2A;
+    /* Dark grey background for the card, slightly lighter than page */
+    border-radius: 12px;
+    /* Rounded corners for the card */
+    padding: 20px;
+    /* Padding inside the card */
+    width: 100%;
+    /* Card takes full available width */
+    max-width: 400px;
+    /* Maximum width to maintain a card-like appearance */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    /* Subtle shadow for depth */
+    border-left: 6px solid #FF6B6B;
+    /* Accent color border on the left, as in mockup */
+    color: #E0E0E0;
+    /* Default text color within the ticket */
+}
+
+/* Styles for the header section of the ticket (e.g., where the small logo is placed) */
+.ticket-header {
+    margin-bottom: 16px;
+    /* Space below the header before the main content */
+    display: flex;
+    /* Use flexbox for alignment */
+    flex-direction: column;
+    /* Stack items vertically */
+    align-items: flex-start;
+    /* Align items to the start (left) */
+}
+
+/* Styles for the main body/content area of the ticket */
+.ticket-body {
+    display: flex;
+    /* Aligns avatar and user info horizontally */
+    align-items: center;
+    /* Vertically centers items in the body */
+}
+
+/* Styles for the user's avatar display area */
+.ticket-avatar {
+    width: 50px;
+    /* Width of the avatar */
+    height: 50px;
+    /* Height of the avatar, making it square */
+    border-radius: 50%;
+    /* Makes the avatar circular */
+    background-color: #555;
+    /* Placeholder background color if no image/initials */
+    margin-right: 16px;
+    /* Space between the avatar and user information */
+    display: flex;
+    /* Enables centering of content (initials) within the avatar */
+    align-items: center;
+    /* Vertically centers content (initials) */
+    justify-content: center;
+    /* Horizontally centers content (initials) */
+    font-weight: bold;
+    /* Makes initials bold */
+    color: #fff;
+    /* White color for initials text */
+    font-size: 1.5rem;
+    /* Font size for initials */
+    overflow: hidden;
+    /* Ensures image content doesn't spill if it's not circular */
+}
+
+/* Styles for an actual image if provided for the avatar */
+.ticket-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Ensures the image covers the area without distortion */
+}
+
+.ticket-date-label{
+    font-weight: 600;
+    padding-right: 0.5rem;
+}
+
+/* Styles for the date text below the logo */
+.ticket-date {
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    color: #458df8;
+    /* Lighter grey color */
+   
+    margin-left: 2px;
+    /* Slight indent to align visually with logo */
+}
+
+
+/* Styles for the user's name */
+.ticket-user-info .ticket-user-name {
+    font-size: 1.25rem;
+    /* 20px font size */
+    color: #FFFFFF;
+    /* White text color for the name */
+    font-weight: 600;
+    /* Semi-bold font weight */
+    margin: 0 0 4px 0;
+    /* No top/left/right margin, small bottom margin */
+}
+
+/* Styles for the user's handle */
+.ticket-user-info .ticket-user-handle {
+    font-size: 0.875rem;
+    /* 14px font size */
+    color: #A0A0A0;
+    /* Lighter grey color for the handle */
+    margin: 0;
+    /* No margin */
+}
