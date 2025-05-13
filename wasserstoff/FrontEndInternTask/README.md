@@ -14,8 +14,8 @@ The focus is on reusability, clean code, minimal redundancy, and adherence to th
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/manish8472/component-library-sdk-task.git
-    cd component-library-sdk-task
+    git clone https://github.com/manish8472/manish-kumar.git
+    cd manish-kumar/wasserstoff/FrontEndInternTask
     ```
 
 2.  **Install dependencies:**
